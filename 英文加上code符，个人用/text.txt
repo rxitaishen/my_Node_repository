@@ -1,0 +1,1 @@
+简而言之就是要针对两个环境写两套代码，一套适用于 `Node` ，一套适用于 `Browser` ，并在`package`.json中配置`Browser`环境下的入口文件。如在笔者发布的包中，针对 `Node` 环境，使用了`CommonJS`语法，针对`Browser`环境，使用了`ES` module语法。并在`package`.json中进行了如下配置：
